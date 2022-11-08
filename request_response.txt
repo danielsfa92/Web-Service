@@ -1,0 +1,35 @@
+Request 
+Post /consultaCliente HTTP/1.1
+Host: www.softexpe.com
+Content -Type: application/soap+xml; charset=utf-8
+Contente -length: nnn
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http//schemas.xmlsoap.org/soap/envelope/">
+<soap:Body xmlns:m="http://www.softexpe.com/consultaCliente">
+    <m:consultaClienteRequest:
+      <m:cpf>0901199230</m:cpf>
+    </m:consultaClienteRequest>
+</soap:Body>
+</soap:Envelope>
+
+
+Response 
+
+HTTP/1.1 200 OK
+Content -Type: application/soap+xml; charset=utf-8
+Contente -Length; nnn
+<?xml version="1.0"?>
+<soap:Body xmlns:m="http://www.softexpe.com/consultaCliente">
+	<m:consultaClienteResponse>
+ 		<m:nome>Daniel Araujo</m:nome>
+		<m:endereço>Av.Caxangá,1992 </m:endereço>
+		<m:telefone> 81 996929892</m:telefone>
+	</m:ConsultaClienteResponse:
+</soap:Body>
+</soap:Envelope>
+
+Na requisição, será solicitado uma informação ao cliente.
+- Ao receber essa requisição, a aplicação web procurará os dados do cliente através da informação fornecida. 
+
+Na resposta, a aplicação web vai retornar com os dados do cliente através da informação fornecida. 
