@@ -1,0 +1,28 @@
+
+Create: POST /livrariasoftex
+[
+ {"LivroId": 1,
+  "Título": "O Enigma do Capital": e as crises do capitalismo
+  "Autor": "David Harvey"
+  "ISBN": "9780199758715"
+ }
+]
+
+*Criasse um registro do livro adicionado no banco de dados da livraria. 
+
+
+
+Read : GET /livrariasoftex/1
+
+* Função de leitura ou pesquisa. Permite que clientes façam buscas através do uso de palavras chaves.
+
+
+
+UPDATE: PUT /livrariasoftex/1
+
+* Permite atualizar informações ou modificar registros,previamente, existentes nos bancos de dados.
+
+
+Delete: Delete /livrariasoftex/1
+
+* Permite que os registros sejam excluídos dos banco de dados que não são mais necessários.
