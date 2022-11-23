@@ -1,0 +1,25 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Bruno Silva",
+      "serie": "3º Ano",
+      "nota": 9.3,
+      "aprovado": true
+    },
+    {
+      "id": 2,
+      "nome": "Felipe Costa",
+      "serie": "3º Ano",
+      "nota": 6.3,
+      "aprovado": false
+    },
+    {
+      "id": 4,
+      "nome": "Sérgio Jorge",
+      "serie": "3º Ano",
+      "nota": 8,
+      "aprovado": true
+    }
+  ]
+}
